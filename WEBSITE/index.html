@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="posts">
+      <img class="profile-pic-icon" alt="" src="./public/profile-pic.svg" />
+
+      <div class="rectangle-parent">
+        <div class="group-child"></div>
+        <div class="group-item"></div>
+        <div class="username">
+          <p class="blank-line">
+            <b>USERNAME: </b>
+          </p>
+          <p class="blank-line">&nbsp;</p>
+        </div>
+      </div>
+      <div class="rectangle-group">
+        <div class="group-inner"></div>
+        <div class="rectangle-div"></div>
+        <b class="about-you">ABOUT YOU:</b>
+      </div>
+      <div class="side-menu-for-likes-and-follo">
+        <img
+          class="side-menu-for-likes-and-follo-child"
+          alt=""
+          src="./public/group-3.svg"
+        />
+
+        <div class="side-menu-for-likes-and-follo-item"></div>
+        <div class="likes" id="lIKESContainer">
+          <img
+            class="favorite-fill-icon"
+            alt=""
+            src="./public/favorite-fill.svg"
+          />
+
+          <div class="likes1">LIKES</div>
+        </div>
+        <div class="following" id="fOLLOWINGContainer">
+          <img class="star-fill-icon" alt="" src="./public/star-fill.svg" />
+
+          <div class="following1">FOLLOWING</div>
+        </div>
+      </div>
+      <div class="following2">
+        <b class="posts1">POSTS</b>
+        <img class="edit-fill-icon" alt="" src="./public/edit-fill@2x.png" />
+      </div>
+      <div class="side-menu">
+        <img class="side-menu-child" alt="" src="./public/group-3@2x.png" />
+
+        <div class="side-menu-item"></div>
+        <div class="profile" id="pROFILEContainer">
+          <b class="profile1">PROFILE</b>
+          <img class="user-cicrle-icon" alt="" src="./public/user-cicrle.svg" />
+        </div>
+        <div class="home" id="hOMEContainer">
+          <div class="home1">HOME</div>
+          <img class="home-icon" alt="" src="./public/home.svg" />
+        </div>
+        <div class="log-out" id="lOGOUTContainer">
+          <div class="log-out1">LOG OUT</div>
+          <img
+            class="sign-out-squre-fill-icon"
+            alt=""
+            src="./public/sign-out-squre-fill@2x.png"
+          />
+        </div>
+        <div class="settings" id="sETTINGSContainer">
+          <div class="settings1">SETTINGS</div>
+          <img
+            class="setting-line-icon"
+            alt=""
+            src="./public/setting-line@2x.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var lIKESContainer = document.getElementById("lIKESContainer");
+      if (lIKESContainer) {
+        lIKESContainer.addEventListener("click", function (e) {
+          window.location.href = "./l-i-k-e-s.html";
+        });
+      }
+      
+      var fOLLOWINGContainer = document.getElementById("fOLLOWINGContainer");
+      if (fOLLOWINGContainer) {
+        fOLLOWINGContainer.addEventListener("click", function (e) {
+          window.location.href = "./f-o-l-l-o-w-i-n-g.html";
+        });
+      }
+      
+      var pROFILEContainer = document.getElementById("pROFILEContainer");
+      if (pROFILEContainer) {
+        pROFILEContainer.addEventListener("click", function (e) {
+          window.location.href = "./a-b-o-u-t-y-o-u.html";
+        });
+      }
+      
+      var hOMEContainer = document.getElementById("hOMEContainer");
+      if (hOMEContainer) {
+        hOMEContainer.addEventListener("click", function (e) {
+          window.location.href = "./m-a-i-n-p-a-g-e.html";
+        });
+      }
+      
+      var lOGOUTContainer = document.getElementById("lOGOUTContainer");
+      if (lOGOUTContainer) {
+        lOGOUTContainer.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n.html";
+        });
+      }
+      
+      var sETTINGSContainer = document.getElementById("sETTINGSContainer");
+      if (sETTINGSContainer) {
+        sETTINGSContainer.addEventListener("click", function (e) {
+          window.location.href = "./s-e-t-t-i-n-g-s.html";
+        });
+      }
+      </script>
+  </body>
+</html>
