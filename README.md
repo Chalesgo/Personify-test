@@ -1,5 +1,5 @@
 # TWITTER-MOCKUP
-How your website accomplished each item in the criteria.
+How your website accomplished each item in the criteria.<br>
 Where could the concepts discussed in class be seen in your website?
 What was your inspiration for the design of the website?
 What was your approach in creating the content of the website?
