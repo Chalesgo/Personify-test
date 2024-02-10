@@ -1,0 +1,182 @@
+.profile-pic-icon3 {
+  position: absolute;
+  top: 84px;
+  left: 268px;
+  width: 168px;
+  height: 150px;
+}
+.group-child11,
+.group-child12 {
+  position: absolute;
+  top: 7px;
+  left: 21.2px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-black);
+  width: 320.8px;
+  height: 43px;
+}
+.group-child12 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.username7 {
+  margin: 0;
+}
+.username6 {
+  position: absolute;
+  top: 10.1px;
+  left: 21.2px;
+  display: inline-block;
+  width: 216.1px;
+  height: 25px;
+}
+.about-you-child,
+.rectangle-parent5 {
+  position: absolute;
+  top: 258px;
+  left: 273px;
+  width: 342px;
+  height: 50px;
+}
+.about-you-child {
+  border: 0;
+  background-color: transparent;
+  display: block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  outline: 0;
+  top: 314px;
+  width: 348px;
+  height: 143px;
+  padding: 14px 17px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: var(--color-gray-200);
+}
+.side-menu-for-likes-and-follo-child3 {
+  position: absolute;
+  right: 550.8px;
+  bottom: 0;
+  width: 142.2px;
+  height: 909px;
+}
+.side-menu-for-likes-and-follo-child4 {
+  position: absolute;
+  top: 32px;
+  left: 106px;
+  background-color: var(--color-dimgray-100);
+  width: 587px;
+  height: 791px;
+}
+.favorite-fill-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 63px;
+  height: 57px;
+}
+.likes7,
+.likes8 {
+  position: absolute;
+}
+.likes8 {
+  top: 10px;
+  left: 63px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.likes7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 89px;
+  left: 528px;
+  width: 114px;
+  height: 57px;
+}
+.star-fill-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 64px;
+}
+.following11 {
+  position: absolute;
+  top: 18px;
+  left: 63px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.following10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 81px;
+  left: 295px;
+  width: 171px;
+  height: 64px;
+}
+.posts5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.following-icon,
+.posts4 {
+  cursor: pointer;
+  position: absolute;
+}
+.following-icon {
+  top: -6px;
+  left: -57px;
+  width: 59px;
+  height: 48px;
+  object-fit: cover;
+}
+.posts4 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 99px;
+  left: 169px;
+  width: 60px;
+  height: 37px;
+}
+.side-menu-for-likes-and-follo3,
+.side-menu-icon1 {
+  position: absolute;
+  right: 0;
+  bottom: -146px;
+  width: 693px;
+  height: 909px;
+}
+.side-menu-icon1 {
+  right: 1209px;
+  bottom: -156px;
+  width: 231px;
+  object-fit: contain;
+}
+.about-you3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  height: 719px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
