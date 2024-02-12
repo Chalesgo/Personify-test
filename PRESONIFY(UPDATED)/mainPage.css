@@ -1,0 +1,232 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.post-textbox {
+  border: 0;
+  background-color: var(--color-white);
+  font-family: var(--font-oswald);
+  font-size: var(--font-size-6xl);
+  outline: 0;
+  position: absolute;
+  top: 509px;
+  left: 383px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 859.6px;
+  height: 146.3px;
+  padding: 20px 28.699999999999818px;
+  box-sizing: border-box;
+  color: #747474;
+}
+.post-button-child,
+.post-button-item {
+  position: absolute;
+  border-radius: var(--br-6xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 251.5px;
+  height: 43.9px;
+}
+.post-button-child {
+  top: 9.1px;
+  left: 10.5px;
+  background-color: var(--color-white);
+}
+.post-button-item {
+  top: 0;
+  left: 0;
+  background-color: #349eff;
+}
+.post {
+  position: absolute;
+  top: 1px;
+  left: 104px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+  width: 64px;
+  height: 35.9px;
+}
+.post-button,
+.search-bar {
+  border: 0;
+  position: absolute;
+}
+.post-button {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  top: 631px;
+  left: 1020px;
+  width: 262px;
+  height: 53px;
+}
+.post-button:hover {
+  animation: 2s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.search-bar {
+  outline: 0;
+  font-family: var(--font-oswald);
+  font-size: var(--font-size-6xl);
+  background-color: var(--color-dimgray-100);
+  top: 18px;
+  left: 412px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 763.8px;
+  height: 70.5px;
+  padding: 14px 111px 18.200000000000003px;
+  box-sizing: border-box;
+  color: #c6c6c6;
+}
+.group-15-11 {
+  position: absolute;
+  top: -41px;
+  left: -26px;
+  width: 338px;
+  height: 760px;
+  object-fit: cover;
+}
+.logout-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 178px;
+  height: 63px;
+}
+.log-out1 {
+  position: absolute;
+  top: 13px;
+  left: 46.4px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 86.3px;
+}
+.logout1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 417px;
+  left: 14px;
+  width: 178px;
+  height: 63px;
+}
+.settings3 {
+  position: absolute;
+  top: 13px;
+  left: 42.1px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 94.9px;
+}
+.settings2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 299px;
+  left: 14px;
+  width: 178px;
+  height: 63px;
+}
+.profile3 {
+  position: absolute;
+  top: 13px;
+  left: 48.5px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 80.9px;
+}
+.profile2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 193px;
+  left: 14px;
+  width: 178px;
+  height: 63px;
+}
+.home-item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 178px;
+  height: 64px;
+}
+.home-item,
+.home2,
+.home3 {
+  position: absolute;
+}
+.home3 {
+  top: 13px;
+  left: 61px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.home2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 102px;
+  left: 15px;
+  width: 178px;
+  height: 64px;
+}
+.main-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  height: 719px;
+  overflow: hidden;
+}
+
+.posts-container {
+  position: absolute;
+  top: 134px;
+  left: 419px;
+  width: 719px;
+  height: 296px;
+  overflow-y: auto; 
+  padding-right: 10px; 
+}
+
+
+.post-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  font-family: 'Oswald', sans-serif; 
+}
+
+

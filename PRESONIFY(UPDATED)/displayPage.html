@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./displayPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orelega One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="display2">
+      <b class="settings17">SETTINGS</b>
+      <div class="side-menu-for-likes-and-follo6">
+        <div class="side-menu-for-likes-and-follo-child7"></div>
+        <div class="likes11">
+          <img
+            class="favorite-fill-icon6"
+            alt=""
+            src="./public/favorite-fill2.svg"
+          />
+
+          <b class="display3">DISPLAY</b>
+        </div>
+        <button class="following15" id="fOLLOWING">
+          <img class="star-fill-icon6" alt="" src="./public/star-fill2.svg" />
+
+          <div class="change-password4">
+            <p class="change2">CHANGE</p>
+            <p class="change2">PASSWORD</p>
+          </div>
+        </button>
+        <button class="notifs5" id="nOTIFS">
+          <div class="notifs6">NOTIFS</div>
+          <img class="bell-fill-icon2" alt="" src="./public/bell-fill.svg" />
+        </button>
+        <div class="side-menu-for-likes-and-follo-child8" id="rectangle1"></div>
+        <div class="side-menu-for-likes-and-follo-child9"></div>
+      </div>
+      <b class="display4">DISPLAY</b>
+      <div class="gremlin-modenight-mode">GREMLIN MODE/NIGHT MODE</div>
+      <div class="display-child"></div>
+      <div class="change-photo">Change Photo</div>
+      <div class="submit">
+        <p class="change2">SUBMIT</p>
+      </div>
+      <img class="group-15-17" alt="" src="./public/group-15-1@2x.png" />
+
+      <button class="logout7" id="LogOutButton">
+        <div class="logout-child5"></div>
+        <div class="log-out7">LOG OUT</div>
+      </button>
+      <button class="settings18" id="SettingsButton">
+        <div class="logout-child5"></div>
+        <div class="settings19">SETTINGS</div>
+      </button>
+      <button class="profile14" id="ProfileButton">
+        <div class="logout-child5"></div>
+        <div class="profile15">PROFILE</div>
+      </button>
+      <button class="home14" id="HomeButton">
+        <div class="home-child5"></div>
+        <div class="home15">HOME</div>
+      </button>
+    </div>
+
+    <script>
+      var fOLLOWING = document.getElementById("fOLLOWING");
+      if (fOLLOWING) {
+        fOLLOWING.addEventListener("click", function (e) {
+          window.location.href = "./changepassword.html";
+        });
+      }
+      
+      var nOTIFS = document.getElementById("nOTIFS");
+      if (nOTIFS) {
+        nOTIFS.addEventListener("click", function (e) {
+          window.location.href = "./settingPage.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          // Please sync "DISPLAY" to the project
+        });
+      }
+      
+      var lOGOUT = document.getElementById("LogOutButton");
+      if (lOGOUT) {
+        lOGOUT.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var sETTINGS = document.getElementById("SettingsButton");
+      if (sETTINGS) {
+        sETTINGS.addEventListener("click", function (e) {
+          window.location.href = "./settingPage.html";
+        });
+      }
+      
+      var pROFILE = document.getElementById("ProfileButton");
+      if (pROFILE) {
+        pROFILE.addEventListener("click", function (e) {
+          window.location.href = "aboutyou.html";
+        });
+      }
+      
+      var hOME = document.getElementById("HomeButton");
+      if (hOME) {
+        hOME.addEventListener("click", function (e) {
+          window.location.href = "./mainPage.html";
+        });
+      }
+      </script>
+  </body>
+</html>
