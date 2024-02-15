@@ -27,11 +27,15 @@ body {
 }
 
 .profile {
-  flex-grow: 1;
-  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items horizontally */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+.profile-content {
+  text-align: center; /* Center content within the container */
 }
 
 .profile-picture {
@@ -39,11 +43,9 @@ body {
   height: 150px;
   background-color: #ccc;
   border-radius: 50%;
-  margin-bottom: 20px; /* Add margin to separate from profile info */
 }
 
 .profile-info {
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -57,8 +59,9 @@ body {
 
 .rightbar {
   background-color: #eee;
-  width: 300px; /* Larger width for the right bar */
   padding: 20px;
+  margin-left: 20px; /* Add left margin */
+  flex-grow: 1; /* Fill remaining space */
 }
 
 .profile-stats {
