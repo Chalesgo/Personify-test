@@ -38,13 +38,6 @@ body {
   text-align: center; /* Center content within the container */
 }
 
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  background-color: #ccc;
-  border-radius: 50%;
-}
-
 .profile-info {
   margin-top: 20px;
 }
@@ -58,7 +51,7 @@ body {
 }
 
 .rightbar {
-  background-color: #eee;
+  background-color: gray;
   padding: 20px;
   margin-left: 20px; /* Add left margin */
   flex-grow: 1; /* Fill remaining space */
